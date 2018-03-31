@@ -1,0 +1,189 @@
+/* Single-direction drop shadow */
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+h1{
+    color: white;
+    margin: 30px 20px 30px 20px;
+    background: rgba(51, 51, 228, 0.63);
+    max-width: 300px;
+    text-align: center;
+    padding: 30px 30px 20px 30px;
+    display: inline;
+    font-family: 'Chicle', cursive;
+
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: aquamarine;
+    
+}
+/* .container{
+    max-width: 960px;
+    margin: auto;
+
+} */
+
+
+h2{
+    color: rgb(109, 109, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    line-height: 2em;
+}
+img{
+    max-width: 100px;
+    float: left;
+    margin:20px;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+    text-align: right;
+    margin-right: 100px;
+    float: right;
+}
+li{
+    color: rgba(128, 128, 128, 0.562);
+    display: inline;
+}
+a{
+    color: rgba(128, 128, 128, 0.562);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: inline;
+    /* float: right; */
+}
+.container{
+    width: 970px;
+    
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right:auto;
+    /* padding: 10px; */
+}
+.left-col{
+    width:650px;
+    /* margin-right: auto; */
+    float: left;
+    background: white;
+    padding: 10px;
+    margin-top: 50px; 
+}
+.sideBar{
+    /* margin-right:auto; */
+    width: 270px;
+    float: right;
+    background:white;
+    padding:10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.navBar{
+    /* display: block; */
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    /* border: 2px solid rgba(112, 108, 108, 0.432); */
+    position: fixed;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 5px 5px black;
+    border-image-repeat: stretch;
+    border-image-outset: 0px;
+    border-bottom-color: black;  
+    border-bottom-style:none;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 980px) {
+    /* Styles */
+
+    .left-col{
+        margin-left: 10px;
+        width:500px;
+        margin-right: auto;
+        float: left;
+        background: white;
+        padding: 10px;
+        margin-top: 50px; 
+    }
+    .sideBar{
+        /* margin-right:auto; */
+        width: 300px;
+        /* float: left; */
+        background:white;
+        padding:10px;
+        text-align: center;
+        margin-top: 50px;
+        float: left;
+        margin-left: 10px;
+    }
+    }
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (max-width : 768px) {
+    /* Styles */
+    .left-col{
+        width:600px;
+        margin-right: 10px;
+        /* float: left; */
+        background: white;
+        padding: 10px;
+        margin-left:10px;
+        margin-top:130px
+         
+    }
+    .sideBar{
+        /* margin-right:auto; */
+        width: 600px;
+      
+        background:white;
+        padding:10px;
+        text-align: center;
+        margin-top: 50px;
+    }
+   
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 640px) {
+    /* Styles */
+    .left-col{
+        width:500px;
+        margin-right: auto;
+        float: left;
+        background: white;
+        padding: 10px;
+         
+    }
+    .sideBar{
+        /* margin-right:auto; */
+        width: 500px;
+        float: left;
+        background:white;
+        padding:10px;
+        text-align: center;
+        margin-top: 50px;
+    }
+   
+    }
+    .footer{
+        text-align: center;
+        background: rgb(255, 162, 21);
+        border-top-color: brown;
+    }
+    
