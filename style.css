@@ -7,14 +7,13 @@ hr {
 }
 h1{
     color: white;
-    margin: 30px 20px 30px 20px;
+    margin: 30px px 30px 20px;
     background: rgba(51, 51, 228, 0.63);
     max-width: 300px;
     text-align: center;
     padding: 30px 30px 20px 30px;
     display: inline;
     font-family: 'Chicle', cursive;
-
 }
 html{
     width: 100%;
@@ -33,6 +32,7 @@ body{
 
 
 h2{
+    top: 30px;
     color: rgb(109, 109, 243);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
@@ -53,7 +53,7 @@ ul{
     list-style-type: none;
     margin: auto;
     text-align: right;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     float: right;
 }
 li{
@@ -70,43 +70,68 @@ a{
 }
 .container{
     width: 970px;
-    
     /* text-align: center; */
     margin-left: auto;
     margin-right:auto;
     /* padding: 10px; */
+    left: 0%;
+    right: 0%;
 }
 .left-col{
     width:650px;
+    display: inline-block;
     /* margin-right: auto; */
-    float: left;
+    /* float: left; */
     background: white;
     padding: 10px;
-    margin-top: 50px; 
+    margin-top: 50px;
+    top: 50px;
+    position: relative;
 }
 .sideBar{
     /* margin-right:auto; */
-    width: 270px;
-    float: right;
+    /* width: 270px; */
+    position: absolute;
     background:white;
+    top: 50px;
     padding:10px;
     text-align: center;
     margin-top: 50px;
+    /* vertical-align: text-top; */
+    margin: 50px;
+    /* float: right; */
+    display: inline-block;
 }
 .navBar{
     /* display: block; */
     width: 100%;
     margin: auto;
+    /* margin-bottom: 500px; */
     padding: 20px 0px 20px 0px;
     /* border: 2px solid rgba(112, 108, 108, 0.432); */
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 5px 5px black;
+    /* box-shadow: 1px 5px 5px black; */
     border-image-repeat: stretch;
     border-image-outset: 0px;
-    border-bottom-color: black;  
+    border-bottom-color: black;
     border-bottom-style:none;
+    top: 0%;
+}
+i{
+    width: 100px;
+}
+footer{
+    background-color: rgb(156, 82, 13);
+    height: 50px;
+    position: relative;
+    bottom:0%;
+    width:100%;
+    opacity: 1;
+    margin-top: 7em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 980px) {
@@ -124,7 +149,7 @@ a{
     .sideBar{
         /* margin-right:auto; */
         width: 300px;
-        /* float: left; */
+        float: right;
         background:white;
         padding:10px;
         text-align: center;
